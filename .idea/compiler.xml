@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mall-order-api" />
+        <module name="mall-order-service" />
+        <module name="mall-pay-api" />
+        <module name="mongodb_demo" />
+        <module name="mall-common" />
+        <module name="mall-cart-service" />
+        <module name="mall-page-web" />
+        <module name="mall-cart-api" />
+        <module name="mall-file-service" />
+        <module name="mall-goods-api" />
+        <module name="mall-pay-service" />
+        <module name="mall-page-api" />
+        <module name="mall-user-api" />
+        <module name="mall-canal-service" />
+        <module name="mall-search-service" />
+        <module name="mall-service-dependency" />
+        <module name="mall-user-service" />
+        <module name="mall-search-api" />
+        <module name="mall-goods-service" />
+        <module name="mongodb_dem" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mongodb_dem" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mall-canal-service" options="-parameters" />
+      <module name="mall-cart-api" options="-parameters" />
+      <module name="mall-cart-service" options="-parameters" />
+      <module name="mall-common" options="-parameters" />
+      <module name="mall-file-service" options="-parameters" />
+      <module name="mall-goods-api" options="-parameters" />
+      <module name="mall-goods-service" options="-parameters" />
+      <module name="mall-order-api" options="-parameters" />
+      <module name="mall-order-service" options="-parameters" />
+      <module name="mall-page-api" options="-parameters" />
+      <module name="mall-page-web" options="-parameters" />
+      <module name="mall-pay-api" options="-parameters" />
+      <module name="mall-pay-service" options="-parameters" />
+      <module name="mall-search-api" options="-parameters" />
+      <module name="mall-search-service" options="-parameters" />
+      <module name="mall-service-dependency" options="-parameters" />
+      <module name="mall-user-api" options="-parameters" />
+      <module name="mall-user-service" options="-parameters" />
+      <module name="mongodb_dem" options="-parameters" />
+      <module name="mongodb_demo" options="-parameters" />
+    </option>
+  </component>
+</project>

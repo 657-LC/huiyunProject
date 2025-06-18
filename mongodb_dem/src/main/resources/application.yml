@@ -1,0 +1,6 @@
+spring:
+  data:
+    mongodb:
+      database: user-db # 指定当前mongodb中数据库名称
+      host: 192.168.31.131  # 指定当前mongodb中服务器ip
+      port: 27017  # 指定当前mongodb服务器中端口号
